@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #7A88B9;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.foto-cointainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+    height: 40vh;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.img-botao {
+    width: 70px;
+    height: 55px;
+    margin: 8px; 
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.img-botao:hover {
+    transform: scale(0.9);
+}
+    
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    max-width: 500px;
+    margin: 0 auto;
+    text-align: center;    
+}
+
+p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.legenda {
+    margin-bottom: 5px;
+    font-weight: bold;
+    font-size: 0.9rem;
+    
+}
+
+.container div {
+    cursor: pointer;
+}
+
+
+
